@@ -4,7 +4,6 @@ WAP to print all the prime numbers upto 50.
 void main(){
  clrscr();
  int a,b,count = 0;
-
  for(a = 2; a<=50; a++)
  {
         count=0;
