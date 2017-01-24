@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int a=1,flag=0,b;
-clrscr();
+//clrscr();
 printf("All the prime numbers are:\n");
 while(a<=50)
 {  
@@ -21,5 +21,6 @@ while(a<=50)
     }
 a++;
 }
-getch();
+//getch();
+return 0;
 }
