@@ -1,3 +1,4 @@
+1.WAP a program to read n numbers from user and store it in array and then rearrange the array in reverse order.
 #include<stdio.h>
 #define MAX 30
 int main()
@@ -16,8 +17,8 @@ for(j=0; j<num; j++)
 {
 printf("%d ",arr[j]);
 }
-i=0;; //i will be pointing to last element
-j=num-1;	//j will be pointing to first element                  
+i=0;; //i will be pointing to first element
+j=num-1;	//j will be pointing to last element                  
 while(i<j)
 {
 temp=arr[i];
